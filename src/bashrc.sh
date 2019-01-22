@@ -1,0 +1,5 @@
+if [ -z "$PYPCG_PYTHON_PATH" ]
+then
+    export PYPCG_PYTHON_PATH=$PYPCG_SOURCE_DIR/python/
+    export PYTHONPATH=$PYPCG_PYTHON_PATH:$PYTHONPATH
+fi
