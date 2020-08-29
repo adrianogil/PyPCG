@@ -8,3 +8,5 @@ function pcg-image-cairo-lines()
 {
     python3 -m pcg.image.cairo_lines_001
 }
+
+alias pcg-image-random-color="python3 -m pcg.image.color.gen_color_image"
