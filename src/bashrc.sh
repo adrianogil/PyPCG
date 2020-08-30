@@ -10,3 +10,4 @@ function pcg-image-cairo-lines()
 }
 
 alias pcg-image-random-color="python3 -m pcg.image.color.gen_color_image"
+alias pcg-image-color-palette="python3 -m pcg.image.color.gen_color_palette_image"
